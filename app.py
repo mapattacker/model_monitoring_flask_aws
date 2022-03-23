@@ -12,7 +12,7 @@ try:
     partner_name = os.environ["partner_name"]
     from utils_db import db_putitem
     log_req_resp = True
-    print("""[WARNING] your requests & responses will be logged to xxx's server. To disable this Feature, comment out 'partner_name' in your docker-compose.yml file""")
+    print("""[WARNING] your requests & responses will be logged to xxx's server. To disable this feature, comment out 'partner_name' in your docker-compose.yml file""")
 except:
     log_req_resp = False
 
